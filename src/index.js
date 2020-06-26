@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Pettype from './components/pettype';
 import Dogsizes from './components/dogsizes';
 import Dog from './components/dogs';
 import Cat from './components/cats';
@@ -9,6 +10,7 @@ import Cattypes from './components/cattypes';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Pettype />
     <Dogsizes />
     <Cattypes />
     <Dog />

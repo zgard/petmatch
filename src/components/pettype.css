@@ -1,0 +1,21 @@
+.Pettypes {
+    text-align: center;
+    margin: 2em;
+}
+
+.Pettypes h1 b{
+    color: blue;
+}
+
+.Pettypes h3 {
+    text-align: center;
+    margin: 4em;
+}
+
+.Pettypes div{
+    text-align: center;
+    border: solid black 5px;
+    display: inline;
+    padding: 30px;
+    margin: 2em;
+}
