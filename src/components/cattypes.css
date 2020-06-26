@@ -1,0 +1,21 @@
+.Cattypes {
+    text-align: center;
+    margin: 2em;
+}
+
+.Cattypes h1 b{
+    color: blue;
+}
+
+.Cattypes h3 {
+    text-align: center;
+    margin: 4em;
+}
+
+.Cattypes div{
+    text-align: center;
+    border: solid black 5px;
+    display: inline;
+    padding: 30px;
+    margin: 2em;
+}

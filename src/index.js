@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Dogsizes from './components/dogsizes';
+import Dog from './components/dogs';
+import Cat from './components/cats';
 import * as serviceWorker from './serviceWorker';
+import Cattypes from './components/cattypes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Dogsizes />
+    <Cattypes />
+    <Dog />
+    <Cat />
   </React.StrictMode>,
   document.getElementById('root')
 );

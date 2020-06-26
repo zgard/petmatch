@@ -1,0 +1,21 @@
+.Dogsizes {
+    text-align: center;
+    margin: 2em;
+}
+
+.Dogsizes h1 b{
+    color: green;
+}
+
+.Dogsizes h3 {
+    text-align: center;
+    margin: 4em;
+}
+
+.Dogsizes div{
+    text-align: center;
+    border: solid black 5px;
+    display: inline;
+    padding: 30px;
+    margin: 2em;
+}
