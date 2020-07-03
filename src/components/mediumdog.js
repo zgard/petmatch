@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import './dogs.css';
-//import JobsListItem from './jobslistitem';
-//import Job from './job';
+import './bigbolddogs.css';
 import axios from "axios";
-import Dogsizes from './dogsizes'
-import { Switch, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 
-export class Dog extends Component {
+export class MediumDog extends Component {
     constructor(props) {
         super(props);
         
@@ -21,9 +18,8 @@ export class Dog extends Component {
     };
 
     componentDidMount() {
-        //const jobId = this.props.match.params.id;
-        const bigBreeds = ['germanshepherd', 'malamute', 'husky', 'mastiff'];
-        const breed = bigBreeds[this.randomInteger(bigBreeds)];
+        const breeds = ['australian', 'boxer', 'labrador', 'akita'];
+        const breed = breeds[this.randomInteger(breeds)];
         axios.get(`https://dog.ceo/api/breed/${breed}/images/random`).then((response) => {
             this.setState({imgURL: response.data.message});
             console.log(response.data.message);
@@ -49,4 +45,4 @@ export class Dog extends Component {
     }
 }
 
-export default Dog
+export default MediumDog

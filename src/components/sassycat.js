@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import './cats.css';
-//import JobsListItem from './jobslistitem';
-//import Job from './job';
 import axios from "axios";
-import Cattypes from './cattypes'
-import { Switch, Route } from 'react-router-dom';
 
-
-export class Cat extends Component {
+export class SassyCat extends Component {
     constructor(props) {
         super(props);
         
@@ -21,15 +16,9 @@ export class Cat extends Component {
     };
 
     componentDidMount() {
-        //const jobId = this.props.match.params.id;
-        // var settings = {
-        //     headers: {
-        //       "x-rapidapi-key": process.env.CATS_KEY
-        //     }
-        //   };
-        // const bigBreeds = ['germanshepherd', 'malamute', 'husky', 'mastiff'];
-        // const breed = bigBreeds[this.randomInteger(bigBreeds)];
-        axios.get(`https://api.thecatapi.com/v1/images/search?breed_id=beng`).then((response) => {
+        const catBreeds = ['bsho', 'norw', 'sfol', 'pers'];
+        const breed = catBreeds[this.randomInteger(catBreeds)];
+        axios.get(`https://api.thecatapi.com/v1/images/search?breed_id=${breed}`).then((response) => {
             this.setState({imgURL: response.data[0].url});
             console.log(response.data.url);
         })
@@ -54,5 +43,5 @@ export class Cat extends Component {
     }
 }
 
-export default Cat
+export default SassyCat
 
