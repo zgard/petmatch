@@ -24,7 +24,7 @@ class Cattypes extends Component {
         return (
             <div className="Cattypes">
                 <h1>You selected <b>Kittycat</b>!</h1>
-                <h3>What kind of kittycat would do you prefer?</h3>
+                <h3>What kind of kittycat do you prefer?</h3>
                     <div><button onClick={this.bigKind}>Big, but kind</button></div>
                     <div><button onClick={this.sassy}>Sassy</button></div>
                     <div><button onClick={this.hypoaller}>Hypoallergenic</button></div>

@@ -17,7 +17,8 @@ class Pettype extends Component {
     render() {
         return (
             <div className="Pettypes">
-                <h1>What kind of pet would you like to meet?</h1>
+                <h1>Welcome to PetMatch! Answer the questions and find your purrfect pet!</h1>
+                <h2>What kind of pet would you like to meet?</h2>
                     <h3></h3>
                     <div><button onClick={this.doggo}>Doggo</button></div>
                     <div><button onClick={this.kittycat}>Kittycat</button></div>

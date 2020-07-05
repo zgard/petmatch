@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './bigbolddogs.css';
+import './dogs.css';
 import axios from "axios";
-import { connect } from 'react-redux';
-
 
 export class TinyDog extends Component {
     constructor(props) {

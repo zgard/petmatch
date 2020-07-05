@@ -31,7 +31,7 @@ export class Hypoallergenic extends Component {
             <div className="Cat">
                 <div>
                     <h1><b>Congratulations!</b></h1>
-                    <h3>You matched with this kittycat!</h3>
+                    <h3>You matched with this <u>hypoallergenic</u> kittycat!</h3>
                     <a><img src={this.state.imgURL} width="20%"></img></a>
                     <h3>Would you like to take me out for a play-date?</h3>
                 </div>

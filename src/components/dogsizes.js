@@ -26,7 +26,7 @@ class Dogsizes extends Component {
         return (
             <div className="Dogsizes">
                 <h1>You selected <b>Doggo</b>!</h1>
-                <h3>What kind of doggo would do you prefer?</h3>
+                <h3>What kind of doggo do you prefer?</h3>
                     <div><button onClick={this.bigBold}>Big and Bold</button></div>
                     <div><button onClick={this.medium}>Medium</button></div>
                     <div><button onClick={this.lapSize}>Lap Size</button></div>

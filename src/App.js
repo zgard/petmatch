@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import logo from './petmatchlogo.png';
 import Pettype from './components/pettype';
 import Dogsizes from './components/dogsizes';
 import BigBoldDog from './components/bigbolddogs';
@@ -11,14 +12,14 @@ import BigKindCat from './components/bigkindcat';
 import SassyCat from './components/sassycat';
 import Hypoallergenic from './components/hypocat';
 import Exotic from './components/exotic';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="container">
-      <div className="Nav">
-          {/* <button href="/">Start over</button> */}
+      <div className="App-header">
+          <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
         </div>
         <div className="App">
         <Route

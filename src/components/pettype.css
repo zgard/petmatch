@@ -1,6 +1,8 @@
-.Pettypes {
+body {
     text-align: center;
-    margin: 2em;
+    background-image: url("../doggo-image.jpg");
+    background-color: #cccccc;
+    font-size: calc(1px + 2vmin);
 }
 
 .Pettypes h1 b{
@@ -18,4 +20,35 @@
     display: inline;
     padding: 30px;
     margin: 2em;
+}
+
+.Pettypes div button{
+    font-size: calc(1px + 2vmin);
+}
+
+/* .Pettypes button img{
+    font-size: calc(1px + 2vmin);
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+
+.Pettypes div:nth-of-type(1):hover{
+    text-decoration: underline;
+    border: solid blue 5px;
+}
+
+.Pettypes div:nth-of-type(2):hover{
+    text-decoration: underline;
+    border: solid green 5px;
 }
